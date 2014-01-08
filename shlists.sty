@@ -1,0 +1,9 @@
+\newenvironment{shitemize}{\begin{list}{-}{\setlength{\parsep}{0pt}
+                             \setlength{\topsep}{0pt}
+                             \setlength{\itemsep}{0pt}}}{\end{list}}
+\newcounter{shenum}
+\newenvironment{shenumerate}{\begin{list}{(\theshenum )}{\usecounter{shenum}
+                             \setlength{\parsep}{0pt}
+                             \setlength{\topsep}{0pt}
+                             \setlength{\itemsep}{0pt}}}{\end{list}}
+

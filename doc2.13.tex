@@ -1,0 +1,229 @@
+\documentclass[twoside,10pt]{article}
+\usepackage{shlists}
+\usepackage[spanish]{babel}
+\usepackage[applemac]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage{multicol}
+\usepackage{picinpar}
+
+\usepackage{url}
+\newcounter{vol}
+\newcounter{num}
+\newcounter{anyo}
+\setcounter{vol}{7}
+\setcounter{num}{1}
+\setcounter{anyo}{2014}
+\newcommand{\mes}{Enero}
+\usepackage{revision}
+
+
+\title{\ \\ Docencia 2.0\\ \large Juan Juli\'an Merelo, Fernando 
+Tricas}
+\author{\LARGE Enseñar y compartir}
+
+
+\date{}
+
+\AutTit{Docencia 2.0}
+
+\begin{document}
+\addtocounter{page}{2}
+
+\maketitle
+\vspace*{2ex}
+
+\begin{multicols}{2}
+
+En los últimos semestres quien más y quien menos se ha enfrentado a la
+preparación de una nueva asignatura o a la adaptación y puesta al día
+de alguna otra materia.  Es posible, sin embargo, que durante este
+tiempo hayamos oído hablar mucho más de las metodologías docentes y
+nuevos enfoques para la enseñanza y el aprendizaje que de los
+contenidos de los que nos íbamos a responsabilizar.  Quizás porque no
+vemos un problema en ello: se supone que somos expertos en las
+materias que impartimos y que hacemos razonablemente bien la tarea de
+investigar las fuentes, empaquetarlas de una manera adecuada y
+administrar adecuadamente las tareas relacionadas con el aprendizaje
+de las mismas.  En la fase final de la preparación, típicamente se
+integrará en nuestro sistema preferido de gestión de la información
+para el material de clases (desde las sufridas transparencias, que
+hace tiempo que dejaron de ser transparentes\footnote{Recordaremos
+aquí Juan Julián Merelo, Fernando Tricas, Juan José 
+Escribano: ``Difusión 2.0 de presentaciones gráficas'',
+en \ReVision, Vol.\ 3, Núm.\ 1 (2010).}) hasta los diversos mecanismos de campus virtuales que
+nuestras universidades y centros nos proporcionan.  Por otra parte, es
+bastante habitual ver el material de distintas asignaturas disponible
+en la red de modo abierto; lamentablemente, esto se queda en muchos
+casos en proporcionar la información en formato PDF.
+
+En el mundo de la Informática llevamos ya años escuchando hablar (y
+utilizando, claro) los distintos sistemas de control de versiones en
+el mundo del desarrollo; una primera herramienta sería el Concurrent
+Versions System (CVS) que permitía a los equipos de desarrollo de
+programas trabajar sobre proyectos comunes llevando registro de las
+novedades y cambio y facilitando la interacción y la integración del
+trabajo.  Posteriormente surgieron otras como Subversion que ya tenía
+en cuenta en su diseño la existencia de equipos distribuidos y la
+necesidad de gestionar sus contribuciones.  Y la estrella del momento,
+git, alrededor de la que han surgido sitios web cuyo objetivo es la
+socialización del código como GitHub, Gitorious o Bitbucket que
+parecen haber dado con la interfaz adecuada para atraer a más personas
+al mundo de la gestión del código.
+
+«¿Y qué tiene eso que ver con los materiales docentes?», se preguntará
+el lector.  Pues bien, queremos proponer aquí la utilización de
+formatos más o menos estructurados para generar contenidos docentes
+(tales como
+Markdown,\footnote{\url{http://daringfireball.net/projects/markdown/syntax#em}}
+HTML, XML o LaTeX) basados en texto que tendrían la ventaja de ser más
+fáciles de compartir, incluir en un sistema de control de versiones
+(como GitHub) y poner a disposición de otros para que puedan
+utilizarlos (convenientemente adaptados a sus necesidades).  Con la
+ventaja de poder recibir, tal vez, las mejoras que los utilizadores
+decidan compartir con nosotros.
+
+El hecho de compartir parte de una premisa: liberar.  Poner una
+licencia bien clarita en el directorio principal en el que quede claro
+qué derechos se ceden y, por supuesto, cuales se conservan.  Las
+licencias Creative Commons ({\small\url{http://creativecommons.org/}}
+son las más usadas en estos casos, pero hay que elegir la licencia más
+apropiada, que para nosotros es la \emph{cc-by-sa},\footnote{\url{http://creativecommons.org/licenses/by-sa/3.0/}} que
+obliga a reconocer la autoría (lo que,\hspace{0.3em} de todas formas,\hspace{0.3em} es un derecho
+natural en nuestro orde-
+
+\noindent\rule{86mm}{1pt}
+
+\vspace{1ex} {\small{\begin{window}[0,r,\includegraphics[width = 27
+mm]{JJM.jpg},] \noindent\emph{JJ Merelo} es catedrático de Universidad
+en el \'area de Arquitectura y Tecnolog\'{\i}a de Computadores, y
+actualmente director de la Oficina de Software Libre de la UGR.
+Mantiene un blog desde el a\~no 2002, y lo ha utilizado en clase desde
+el a\~no 2004; tambi\'en wikis y, ultimamente, agregadores y otras
+herramientas TIC. Últimamente le ha dado por el \textsl{flipped
+learning}, de lo que se informará debidamente en esta columna.
+\end{window}}}
+
+\medskip
+
+{\small{\begin{window}[0,r,\includegraphics[width = 27 mm]{FTricas1.jpg},]
+		\noindent  \emph{Fernando Tricas Garc\'{\i}a} es profesor
+		titular de Lenguajes y Sistemas Inform\'aticos del Departamento
+		de Inform\'atica e Ingenier\'{\i}a de Sistemas de la Universidad de
+		Zaragoza.  Empez\'o a estudiar la blogosfera casi cuando a\'un no
+		exist\'{\i}a (all\'a por el a\~no 2002) y a tratar de integrarla en los
+		cursos y tareas docentes un poco despu\'es.  Ha impartido
+		numerosas charlas relacionadas con el tema de la Web 2.0.
+		Es actualmente Director de su departamento de la Universidad de Zaragoza.  Se
+		puede saber m\'as de \'el mirando en su p\'agina web (lo que dice
+		que hace y lo que dice que es):
+		http://www.cps.unizar.es/\~{}ftricas/ y en su bit\'acora (lo que le
+		gusta, o le preocupa, o le llama la atenci\'on)
+		http://fernand0.blogalia.com/
+\end{window}}}
+
+\noindent namiento jurídico), hacer lo que uno quiera,
+copiar, modificar, ampliar, resumir o incluso cantar, pero
+compartiendo el resultado exactamente de la misma forma.
+Una vez aclara la licencia y si se usa una plataforma cómoda de
+control de fuentes como la GitHub mencionada u otras como BitBucket,
+crear una copia propia (en la propia cuenta) es tan fácil como hacer
+un \textsl{fork}, lo que se anima mediante botones en cada una de ellas.  Un
+\textsl{fork} copia el contenido del repositorio a la propia cuenta y a partir
+de ahí se puede modificar o simplemente dejarse ahí.  Si se modifica,
+añadiendo material, corrigiendo errores o añadiendo el material propio
+generado en la asignatura por el alumno (ejercicios, proyectos) se
+puede solicitar incorporar ese material al original mediante lo
+denominado \textsl{pull request}.  El autor original puede revisar los cambios
+e incorporarlos (o no) al original.
+
+De hecho, el uso de estas técnicas en la educación superior se está
+haciendo cada vez más popular\footnote{Véase la entrada de Lawson en
+el Chronicles of Higher Education
+\url{http://chronicle.com/blogs/profhacker/forks-and-pull-requests-in-github/47753}}
+hasta el punto que se han creado plataformas específicas, como
+CourseFork,\footnote{\url{http://opensource.com/education/13/9/coursefork-education-tool}}
+para llevarlas a cabo, incluso de forma independiente a cualquier
+sistema de gestión de fuentes (pero con la misma filosofía).  Y
+nosotros mismos estamos experimentando con ellas en la asignatura de
+Infraestructura Virtual,\footnote{\url{http://jj.github.io/IV/}} donde no sólo está la fuente (en Markdown) de
+los apuntes, sino que se usa el sistema de notificación de 
+errores\footnote{\url{https://github.com/JJ/IV/issues?state=open}}
+para comunicar al autor errores en los apuntes (si uno no quiere
+tomarse la molestia de corregirlos en el propio repositorio) y, en
+otro repositorio, se lleva control de los objetivos cumplidos por cada
+uno de los alumnos,\footnote{\url{https://github.com/IV-GII/GII-2013}} se suben ejercicios y se comunican proyectos.
+Conviene recordar aquí experiencias previas con los 
+Wikis,\footnote{Juan Julián Merelo, Fernando Tricas, Juan José 
+Escribano: ``Los wikis'',
+en \ReVision, Vol.\ 2, Núm.\ 2 (2009).} puesto que
+esa herramienta también tiene una fuerte componente de ceder el
+control, o mejor dicho, compartirlo con los estudiantes; de hecho, la
+mayoría de los repositorios de código, inclusive GitHub, incluyen un
+wiki, que puede servir para crear documentación más o menos permanente
+con los mismos permisos y privilegios que el repositorio de material
+docente.
+
+El obstáculo principal en la adopción de esta filosofía es que supone
+un cambio no sólo en la forma de comunicar los apuntes, sino en el
+enfoque total de enseñanza/aprendizaje.  Dar la posibilidad de copiar
+y modificar los apuntes no sirve de nada si no se aceptan esas
+modificaciones y se usa una clase magistral en la que la participación
+del alumno se limita a recibir pasivamente el contenido o a preguntar
+dudas en caso necesario.  La relación profesor alumno se iguala,
+porque la posición de creador y transmisor de conocimiento ya no es
+exclusiva del profesor, sino que es compartida con los alumnos
+(aunque, por supuesto, no todos los alumnos van a saltar de inmediato
+a enmendarle la plana al profesor).  De la misma forma, el profesor no
+es un depositario de conocimiento infinito que muestra sólo la punta
+del iceberg al alumno, sino que expone tanto sus fortalezas como sus
+debilidades y, en caso de duda, son alumnos y profesores los que,
+conjuntamente, llegan a la solución de un problema.
+
+En resumen, se empieza por compartir y se acaba con una rebelión en
+las aulas.  Pero, por el camino, todos aprendemos mucho más.
+
+
+
+\noindent\rule{90mm}{1pt}
+
+{\small \noindent\copyright 2014 JJ. Merelo, F. Tricas. Este art\'{\i}culo es de acceso libre distribuido bajo los t\'erminos
+de la Licencia Creative Commons de Atribuci\'on, que permite copiar,
+distribuir y comunicar p\'ublicamente la obra en cualquier medio, s\'olido
+o electr\'onico, siempre que se acrediten a los autores y fuentes
+originales}
+
+
+% \begin{thebibliography}{9}
+% 	\bibitem{WA} John Paczkowski: \emph{WhatsApp: Bigger Than Twitter}.
+% {\small\url{http://allthingsd.com/20130416/whatsapp-bigger-than-twitter/}},
+% consultado en abril de 2013.}
+% 
+% \bibitem{Micr} Europa Press: Microsoft confirma la
+% desaparición de Messenger y su integración en Skype.
+% {\small\texttt{http://www.europapress.es/portaltic/social 
+% media/noticia-microsoft-confirma-desapari
+% cion-messenger-integracion-skype-20121106
+% 194539.html}},
+% consultado en abril de 2013.
+% 
+% \bibitem{MT} Juan J. Merelo, F. Tricas:  \emph{Los medios y los memes.} En La
+% Comunicación Digital, editado por Germán Llorca Abad, Mar Iglesias
+% García, Àlvar Peris Blanes.  Tirant lo Blanc.  Valencia, España.
+% pp.~219 -- 226.  2012.
+% 
+% \end{thebibliography}
+\end{multicols}
+\end{document}
+	
+
+
+
+
+
+
+
+
+\end{multicols}
+\end{document}
+ 
