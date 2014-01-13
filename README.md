@@ -6,6 +6,7 @@ la secci贸n Docencia 2.0 de la revista [ReVisi贸n]([http://www.aenui.net/ojs/ind
 
 Las columnas pueden leerse en formato html y pdf en la revista.
 
+* [Ense馻r y compartir](http://www.aenui.net/ojs/index.php?journal=revision&page=article&op=view&path%5B%5D=138&path%5B%5D=227), ReVisi贸n, Vol 7, No 1 (2014), [fuente](doc2.13.tex)
 * [La irresistible ascensi贸n del WhatsApp](http://www.aenui.net/ojs/index.php?journal=revision&page=article&op=view&path[]=132&path[]=192), ReVisi贸n, Vol 6, No 2 (2013), [fuente](doc2.12.tex)
 * [Bibliograf铆a 2.0](http://www.aenui.net/ojs/index.php?journal=revision&page=article&op=viewArticle&path[]=108&path[]=163), ReVisi贸n, Vol 5, No 2 (2012), [fuente](doc2.10.tex)
 * [Rutinas del docente 2.0 ](http://www.aenui.net/ojs/index.php?journal=revision&page=article&op=view&path[]=101&path[]=156), ReVisi贸n, Vol 5, No 1 (2012), [fuente](doc2.9.tex)
