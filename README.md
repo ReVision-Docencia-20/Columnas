@@ -1,19 +1,19 @@
-Docencia 2.0 en ReVisi贸n: los fuentes
+Docencia 2.0 en ReVisi髇: los fuentes
 ===============
 
 Estos son los fuentes en LaTeX de las columnas que vamos escribiendo para
-la secci贸n Docencia 2.0 de la revista [ReVisi贸n]([http://www.aenui.net/ojs/index.php?journal=revision), la revista de la [Asociaci贸n de Ense帽antes Universitarios de la Inform谩tica - AENUI ](http://www.aenui.net/).
+la secci髇 Docencia 2.0 de la revista [ReVisi髇]([http://www.aenui.net/ojs/index.php?journal=revision), la revista de la [Asociaci髇 de Ense馻ntes Universitarios de la Inform醫ica - AENUI ](http://www.aenui.net/).
 
 Las columnas pueden leerse en formato html y pdf en la revista.
 
-* [Ense馻r y compartir](http://www.aenui.net/ojs/index.php?journal=revision&page=article&op=view&path%5B%5D=138&path%5B%5D=227), ReVisi贸n, Vol 7, No 1 (2014), [fuente](doc2.13.tex)
-* [La irresistible ascensi贸n del WhatsApp](http://www.aenui.net/ojs/index.php?journal=revision&page=article&op=view&path[]=132&path[]=192), ReVisi贸n, Vol 6, No 2 (2013), [fuente](doc2.12.tex)
-* [Bibliograf铆a 2.0](http://www.aenui.net/ojs/index.php?journal=revision&page=article&op=viewArticle&path[]=108&path[]=163), ReVisi贸n, Vol 5, No 2 (2012), [fuente](doc2.10.tex)
-* [Rutinas del docente 2.0 ](http://www.aenui.net/ojs/index.php?journal=revision&page=article&op=view&path[]=101&path[]=156), ReVisi贸n, Vol 5, No 1 (2012), [fuente](doc2.9.tex)
-* [Investigadores 2.0 ](http://www.aenui.net/ojs/index.php?journal=revision&page=article&op=view&path[]=91&path[]=133), ReVisi贸n, Vol 4, No 2 (2011), [fuente](doc2.8.tex)
-* [Twitter, 驴microbit谩coras para la universidad?](http://www.aenui.net/ojs/index.php?journal=revision&page=article&op=view&path[]=83&path[]=123), ReVisi贸n, Vol 4, No 1 (2011),  [fuente](doc2.7.tex)
-* [Enred谩ndose socialmente](http://www.aenui.net/ojs/index.php?journal=revision&page=article&op=view&path[]=74&path[]=112), ReVisi贸n, Vol 3, No 2 (2010),  [fuente](doc2.6.tex)
-* [Difusi贸n 2.0 de presentaciones gr谩ficas](http://www.aenui.net/ojs/index.php?journal=revision&page=article&op=view&path[]=65&path[]=99), ReVisi贸n, Vol 3, No 1 (2010),  [fuente](doc2.5.tex)
-* [Los Wikis](http://www.aenui.net/ojs/index.php?journal=revision&page=article&op=view&path[]=30&path%5B%5D=64), ReVisi贸n, Vol 2, No 2 (2009),  [fuente](doc2.4.tex)
-* [ En el principio eran los blogs](http://www.aenui.net/ojs/index.php?journal=revision&page=article&op=view&path[]=16&path[]=46), ReVisi贸n, Vol 2, No 1 (2009),  [fuente](doc2.3.tex)
-* [Docencia 2.0, 驴Universidad 2.0?](http://www.aenui.net/ojs/index.php?journal=revision&page=article&op=view&path[]=9&path[]=39), ReVisi贸n, Vol 1, No 2 (2008),  [fuente](doc2.2.tex).
+* [Ense馻r y compartir](http://www.aenui.net/ojs/index.php?journal=revision&page=article&op=view&path%5B%5D=138&path%5B%5D=227), ReVisi髇, Vol 7, No 1 (2014), [fuente](doc2.13.tex)
+* [La irresistible ascensi髇 del WhatsApp](http://www.aenui.net/ojs/index.php?journal=revision&page=article&op=view&path[]=132&path[]=192), ReVisi髇, Vol 6, No 2 (2013), [fuente](doc2.12.tex)
+* [Bibliograf韆 2.0](http://www.aenui.net/ojs/index.php?journal=revision&page=article&op=viewArticle&path[]=108&path[]=163), ReVisi髇, Vol 5, No 2 (2012), [fuente](doc2.10.tex)
+* [Rutinas del docente 2.0 ](http://www.aenui.net/ojs/index.php?journal=revision&page=article&op=view&path[]=101&path[]=156), ReVisi髇, Vol 5, No 1 (2012), [fuente](doc2.9.tex)
+* [Investigadores 2.0 ](http://www.aenui.net/ojs/index.php?journal=revision&page=article&op=view&path[]=91&path[]=133), ReVisi髇, Vol 4, No 2 (2011), [fuente](doc2.8.tex)
+* [Twitter, 縨icrobit醕oras para la universidad?](http://www.aenui.net/ojs/index.php?journal=revision&page=article&op=view&path[]=83&path[]=123), ReVisi髇, Vol 4, No 1 (2011),  [fuente](doc2.7.tex)
+* [Enred醤dose socialmente](http://www.aenui.net/ojs/index.php?journal=revision&page=article&op=view&path[]=74&path[]=112), ReVisi髇, Vol 3, No 2 (2010),  [fuente](doc2.6.tex)
+* [Difusi髇 2.0 de presentaciones gr醘icas](http://www.aenui.net/ojs/index.php?journal=revision&page=article&op=view&path[]=65&path[]=99), ReVisi髇, Vol 3, No 1 (2010),  [fuente](doc2.5.tex)
+* [Los Wikis](http://www.aenui.net/ojs/index.php?journal=revision&page=article&op=view&path[]=30&path%5B%5D=64), ReVisi髇, Vol 2, No 2 (2009),  [fuente](doc2.4.tex)
+* [ En el principio eran los blogs](http://www.aenui.net/ojs/index.php?journal=revision&page=article&op=view&path[]=16&path[]=46), ReVisi髇, Vol 2, No 1 (2009),  [fuente](doc2.3.tex)
+* [Docencia 2.0, 縐niversidad 2.0?](http://www.aenui.net/ojs/index.php?journal=revision&page=article&op=view&path[]=9&path[]=39), ReVisi髇, Vol 1, No 2 (2008),  [fuente](doc2.2.tex).
