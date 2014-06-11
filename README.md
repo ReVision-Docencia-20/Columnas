@@ -6,6 +6,7 @@ la sección Docencia 2.0 de la revista [ReVisión]([http://www.aenui.net/ojs/index
 
 Las columnas pueden leerse en formato html y pdf en la revista.
 
+* [Informática y Muhdo Real: Hackatones](http://www.aenui.net/ojs/index.php?journal=revision&page=article&op=view&path[]=155&path[]=236), ReVisión, Vol 7, No 1 (2014), [fuente](doc2.14.tex)
 * [Enseñar y compartir](http://www.aenui.net/ojs/index.php?journal=revision&page=article&op=view&path%5B%5D=138&path%5B%5D=227), ReVisión, Vol 7, No 1 (2014), [fuente](doc2.13.tex)
 * [La irresistible ascensión del WhatsApp](http://www.aenui.net/ojs/index.php?journal=revision&page=article&op=view&path[]=132&path[]=192), ReVisión, Vol 6, No 2 (2013), [fuente](doc2.12.tex)
 * [Bibliografía 2.0](http://www.aenui.net/ojs/index.php?journal=revision&page=article&op=viewArticle&path[]=108&path[]=163), ReVisión, Vol 5, No 2 (2012), [fuente](doc2.10.tex)
