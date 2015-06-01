@@ -1,0 +1,52 @@
+% 14 de nonviembre  de 2014
+
+\usepackage{times}
+
+\usepackage{graphicx}
+\DeclareGraphicsExtensions{.png, .pdf, .jpg, .jpeg, .bmp}
+
+\usepackage[includeheadfoot,
+             columnsep = 2em,
+             footskip = 10 mm, headsep = 3.7 mm, headheight = 12 pt,
+             left = 1.8 cm, right = 1.8 cm, 
+			 top = 1.2 cm, bottom = 1.4 cm]{geometry}
+
+\usepackage{titling}
+
+%Bajamos el titulo un poco
+\setlength{\droptitle}{1.2 cm}
+
+%Cabeceras y pies
+
+ % Autor y t’tulo para el pie
+\newcommand{\ElAutTit}{} 
+\newcommand{\AutTit}[1]{\renewcommand{\ElAutTit}{#1}} 
+
+\usepackage{fancyhdr}
+\renewcommand{\headrulewidth}{0pt} %Sin rayas
+\renewcommand{\footrulewidth}{0pt}
+
+\fancyhf{} % Clear all fields
+\fancyhead[RE]{\sf Re\hspace{-0.10em}Visi\'on. Vol. \thevol, n\'um.\ 
+\thenum}
+\fancyhead[RO,LE]{\thepage}
+\fancyhead[LO]{\sf \ElAutTit} % El Autor+titulo
+\fancyfoot{}
+
+\fancypagestyle{plain}{\fancyhf{}%
+\lhead{\setlength{\unitlength}{1mm}
+     \begin{picture}(0,0)
+      \put(0,-22){\includegraphics[width = 180 mm]{CabeceraReVision.pdf}}
+      \end{picture}
+     }
+
+
+\fancyfoot[C]{\thepage} %Plain = number at bottom...
+\fancyfoot[L]{\sf Re\hspace{-0.10em}Visi\'on vol.\ \thevol, n\'um.\ 
+\thenum. \mes\   
+\theanyo\\ISSN 1989-1199}% and journal data on left
+}
+
+\pagestyle{fancy}
+\newcommand{\ReVision}{Re\hspace{-0.10em}Visi\'on}
+% \newcommand[1]{\titulo}{\title{\ \\#1}}
