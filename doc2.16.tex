@@ -35,43 +35,50 @@ Tricas}
 \begin{multicols}{2}
 \noindent\rule{86mm}{1pt}
 
-En general, los proyectos en ingenier\'ia se desarrollan en equipos. Y los
+Los proyectos en ingenier\'ia, en general, se desarrollan en equipos. Y los
 equipos necesitan herramientas para controlar qui\'en hace qu\'e, incorporar
 cambios a trav\'es de un proceso establecido y poder, en caso necesario,
 ver la evoluci\'on del dise\~no a trav\'es de las versiones del mismo.
-En el caso del desarrollo de sistemas inform\'aticos tambi\'en es posible (y
-necesario en algunos casos) volver a algun punto anterior del trabajo, o explorar caminos alternativos.
+En el caso del desarrollo de sistemas inform\'aticos tambi\'en es
+posible, y
+necesario en algunos casos, volver a algun punto anterior del trabajo,
+corregir algœn error introducido en una versi—n anterior o explorar caminos alternativos. 
 
-En ingenier\'ia inform\'atica estos sistemas se denominan sistemas de
-gesti\'on de fuentes o de control de versiones. Son programas que
+En ingenier\'ia inform\'atica los sistemas que incorporan esas
+caracter’sticas se denominan sistemas de 
+gesti\'on de c—digo fuente o de control de versiones. Son programas que
 gestionan el acceso por parte de un equipo al c\'odigo fuente, en
 archivos de texto guardados en diferentes directorios, de un
 proyecto. Bien desde la l\'inea de \'ordenes o desde un interfaz gr\'afico,
 permiten  {\em comprometer} un fichero o un grupo de ficheros que han
 cambiado, crear diferentes {\em ramas} de desarrollo y fusionarlas con
-una serie de \'ordenes (m\'as o menos) simples. 
-El trabajo concurrente sobre un mismo proyecto provocar\'a necesariamente la necesidad de coordinarse. Pero de manera casi inevitable se producir\'an conflictos:
+una serie de \'ordenes simples. 
+El trabajo concurrente sobre un mismo proyecto provocar\'a
+necesariamente la necesidad de coordinarse. Pero de manera casi
+inevitable se producir\'an conflictos: 
 cuando dos miembros del equipo han modificado la misma l\'inea, hay que
 determinar si se trata de un error, un desajuste respecto a las
 especificaciones o, simplemente, diferentes formas de aboradar un problema; el
-sistema de control de versiones marcar\'a el problema, y nos obligar\'a a
-solucionarlo eliminando o modificando la l\'inea o l\'ineas que hayan causado el
+sistema de control de versiones marcar\'a sobre el texto las l’neas en
+las que se ha producido el conflicto, mostrando las dos versiones, y nos obligar\'a a
+solucionarlo eligiendo, eliminando o modificando la l\'inea o l\'ineas que hayan causado el
 conflicto.
 
-Hoy en d\'ia cualquier empresa usa (o deber\'ia usar) un sistema de control de
+Hoy en d\'ia cualquier empresa con un m’nimo departamento TIC usa, o deber\'ia usar, un sistema de control de
 versiones; entre todos los existentes uno de los que m\'as atracci\'on ha ganado es
 {\tt git}, dise\~nado inicialmente por Linus Torvalds con su experiencia en la
 gestion del desarrollo del kernel de Linux pero hoy en d\'ia convertido en el
-sistema m\'as popular (mantenido y desarrollado por Junio Hamano). 
+est‡ndar {\em de facto}; hoy en d’a lo mantiene y desarrolla por Junio Hamano. 
 Permite el desarrollo con equipos distribuidos, de manera no necesariamente
-lineal, e incluye un sistema de publicacion web de los respositorios, entre
+lineal e incluye un sistema de publicacion web de los repositorios, entre
 otras caracteristicas interesantes.
 
-Entender el funcionamiento de git (o de otro sistema de gesti\'on de versiones) y
+Entender el funcionamiento de git como principal sistema de control de
+versiones en la actualidad y 
 sus patrones de trabajo es fundamental en la carrera de inform\'atica, tan
 fundamental como trabajar con un lenguaje de programaci\'on de scripting o
-entender el idioma ingl\'es. Es fundamental
-hasta tal punto que debe de ser una habilidad transversal como lo es usar la
+entender el idioma ingl\'es. Y lo es
+hasta tal punto que debe ser una habilidad transversal como lo es usar la
 Internet y por tanto no tanto parte de una asignatura como
 Ingenier\'ia del Software, sino parte integral del curr\'iculum de todas y
 cada una de las asignaturas de una carrera de Inform\'atica. 
@@ -80,8 +87,8 @@ herramientas cuando explore el c\'odigo de otros, en cualquier caso.
 
 Porque el aprendizaje del ingeniero debe prepararle, a trav\'es de la
 pr\'actica, para su trabajo y la mejor forma de hacerlo es usando las
-mismas herramientas para que se interiorice y se desarrollen
-estrategias propias para el uso de la misma. Porque no cabe duda de
+mismas herramientas para que su uso se interiorice y se desarrollen
+estrategias propias para el mismo. Porque no cabe duda de
 que usar git puede ayudar en todas y cada una de las asignaturas para
 desarrollar trabajos en grupo y elaborar documentos de la misma
 forma. Pero adem\'as, al ser por omisi\'on una herramienta de trabajo en
@@ -127,7 +134,18 @@ nos pueden permitir conocer proyectos interesantes, desarrolladores de los que
 aprender y, en definitiva, tejer esa red de aprendizaje que nos puede dar
 soporte en el futuro para nuestros propios proyectos.
 
-Aunque el uso no es mayoritario, git (y otros sistemas de control de versiones) tambi\'en pueden utilizarse para todo tipo de archivos de texto, por ejemplo, documentaci\'on. Los fuentes (en \LaTeX) de estas columnas est\'an alojados en GitHub y uno de nosotros (JJ. Merelo, junto con Pablo...) public\'o en .... un libro sobre git que tambi\'en est\'a alojado  en ... Tambi\'en hemos estado experimentando (tanto en repositorios p\'ublicos como privados) con la publicaci\'on de datos de experimentos, por la simplicidad a la hora de gestionar grandes cantidades de informaci\'on, tenerlas disponibles en la web, compartirlas...
+Aunque el uso no es mayoritario, git (y otros sistemas de control de
+versiones) tambi\'en pueden utilizarse para todo tipo de archivos de
+texto, por ejemplo, documentaci\'on o escritura colaborativa de un trabajo. Los fuentes (en \LaTeX) de estas
+columnas est\'an alojados en GitHub y uno de nosotros (J. J. Merelo,
+junto con Pablo Hinojosa) public\'o en Amazon un libro sobre git que tambi\'en
+est\'a alojado  en GitHub:https://github.com/oslugr/curso-git. Tambi\'en hemos estado experimentando (tanto en
+repositorios p\'ublicos como privados) con la publicaci\'on de datos
+de experimentos, por la simplicidad a la hora de gestionar grandes
+cantidades de informaci\'on, tenerlas disponibles en la web,
+compartirlas... En resumen, git es el verdadero sistema operativo de
+los equipos de trabajo en inform‡tica. Y como tal debe ocupar una
+posici—n privilegiada dentro de la ense–anza de la misma.
 
 
 
