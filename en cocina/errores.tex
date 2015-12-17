@@ -1,7 +1,6 @@
 \documentclass[twoside,10pt]{article}
 \usepackage{shlists}
 \usepackage[spanish]{babel}
-\usepackage[applemac]{inputenc}
 \usepackage[T1]{fontenc}
 
 \usepackage{multicol}
@@ -20,8 +19,7 @@
 \usepackage{revisionNLcol}
 
 
-\title{\ \\ Docencia 2.0\\ \large Juan Juli\'an Merelo, Fernando 
-Tricas}
+\title{\ \\ Docencia 2.0\\ \large Juan Juli\'an Merelo, Fernando Tricas}
 \author{\LARGE El miedo a fallar}
 
 \date{}
@@ -36,43 +34,86 @@ Tricas}
 
 \begin{multicols}{2}
  
-En general, en la ense–anza universitaria se ense–a a acertar: a que
-tu c—digo compile correctamente, pase todos los tests y finalmente
-haga lo que tiene que hacer. Los contenidos, ejercicios y pr‡cticas se
-encaminan a que no haya ningœn fallo en ese proceso.
+En general, en la enseñanza universitaria de la programación y tareas
+aledañas, como administración de sistemas, se enseña a acertar: A que
+tu código compile correctamente, pase todos los tests y finalmente
+haga lo que tiene que hacer. Los contenidos, ejercicios y prácticas se
+encaminan a que no haya ningún fallo en ese proceso.
 
-Pero en ingenier’a las cosas no siempre van como a uno le gustar’a que
-fueran. Un espacio mal colocado o un punto y coma omitido y el
-ordenador expulsa una serie de parrafadas, adem‡s en inglŽs,
-expresando su impotencia y su falta de comprensi—n por lo que el ser
-humano est‡ intentando hacer. Y el problema es que, cada vez m‡s, el
-ser humano matriculado en un grado de ingenier’a, ante esa parrafada, s—lo sabe expresar su impotencia y su
-falta de comprensi—n.
+Pero en ingeniería las cosas no siempre van como a uno le gustaría que
+fueran. En cualquier paso en el proceso de creación de un sistema
+informático, un espacio mal colocado o un punto y coma omitido y el
+ordenador expulsa una serie de parrafadas, además en inglés,
+expresando su impotencia y su falta de comprensión por lo que el ser
+humano está intentando hacer. Y el problema es que, cada vez más, el
+ser humano matriculado en un grado de ingeniería, ante esa parrafada, sólo sabe expresar su impotencia y su
+falta de comprensión al profesor de teoría o prácticas más cercano. 
 
-`Use the force, Luke' dec\'ia el maestro al aprendiz en aquella saga que se ha puesto de moda otra vez durante las \'ultimas semanas. Y a pesar de que tambi\'en aqu\'el otro dec\'ia aquello de `The force is strong with this one!', lo cierto es que el protagonista no dejaba de utilizar por ello las herramientas que ten\'ia disponibles (la espada l\'aser, las naves, los robots...).
+`Use the force, Luke' dec\'ia el maestro al aprendiz en aquella saga
+que se ha puesto de moda otra vez durante las \'ultimas semanas. Y a
+pesar de que tambi\'en aqu\'el otro dec\'ia aquello de `The force is
+strong with this one!', lo cierto es que el protagonista no dejaba de
+utilizar por ello las herramientas que ten\'ia disponibles (la espada
+l\'aser, las naves, los robots...). 
 
-As\'i que ser\'a nuestra tarea intentar convencer a nuestros estudiantes del valor de los mensajes de error: fundamentalmente en nuestro compilador favorito (o para el caso, de alguien) cuando hemos cometido alg\'un errorcillo nos lanza una parrafada que var\'ia mucho en calidad y contenido, pero que en muchos casos nos ayudar\'a a hacernos una idea de lo que est\'a pasando y en otros nos dar\'a por lo menos alguna pista de por d\'onde tenemos que empezar a mirar.
+As\'i que ser\'a nuestra tarea intentar convencer a nuestros
+estudiantes del valor de los mensajes de error: fundamentalmente en
+nuestro compilador favorito (o para el caso, de alguien) cuando hemos
+cometido alg\'un errorcillo nos lanza una parrafada que var\'ia mucho
+en calidad y claridad, pero que en muchos casos nos ayudará a
+hacernos una idea de lo que est\'a pasando y en otros nos dar\'a por
+lo menos alguna pista de por d\'onde tenemos que empezar a mirar. 
 
-Las virtudes teologales de un desarrollador cuando aparecen los errores:
+Por eso, pedimos a los jóvenes padawanes que practiquen las siguientes
+virtudes teologales de un desarrollador cuando aparecen los errores: 
 
 \begin{itemize}
 \item Fe: el compilador sabe. Si se queja es que algo hemos hecho mal.
-\item Esperanza: todo tiene remedio. Revisemos la l\'inea donde nos se\~nalan (desde el principio de la lista de errores) y sus alrededores. A veces ayuda dejarlo un rato y volver m\'as tarde.
-\item Caridad: siempre encontraremos quien nos ayude. O a qui\'en ayudar. El c\'odigo fuente tiene la rara {\em virtud} de confundirnos cuando lo miramos fijamente. Esto no afecta a personas que no han estado mir\'andolo antes. 
+\item Esperanza: todo tiene remedio. Revisemos la l\'inea donde nos
+  se\~nalan, desde el principio de la lista de errores, y sus
+  alrededores. A veces ayuda dejarlo un rato y volver m\'as tarde. No
+  ayuda volver a hacer exactamente lo mismo a ver si pillamos
+  despistado al compilador y se le olvida darnos el mismo error. 
+\item Caridad: siempre encontraremos quien nos ayude. O a qui\'en
+  ayudar. El c\'odigo fuente tiene la rara {\em virtud} de
+  confundirnos cuando lo miramos fijamente. Esto no afecta a personas
+  que no han estado mir\'andolo antes.  
 \end{itemize}
 
-Las podemos complementar con las virtudes cardinales.
+Y que, una vez practicadas y alcanzado el zen con ellas, se pueden
+complementar con las virtudes cardinales. 
 
 \begin{itemize}
-\item Prudencia. Una copia de seguridad, o un `commit' a tiempo y una nueva rama, para probar cambios sin destrozar ninguna funcionalidad. A ver si arreglando algo se nos va a estropear lo dem\'as.
-\item Justicia. El compilador no tiene la culpa. El computador tampoco, ni el que nos encarg\'o la pr\'actica. 
-\item Fortaleza. El que resiste gana. Y las herramientas son muy robustas, pero ... ¿Dejaremos que nos venzan unas pocas l\'ineas de c\'odigo?
-\item Templanza. A\~nadir otra opci\'on a nuestro programa no lo hace mejor. Incluir las \'ultimas caracter\'isticas de la \'ultima versi\'on del lenguaje, tampoco. El objetivo es resolver la funcionalidad que sea necesaria y, de paso, aprender cosas interesantes. A veces tenemos la tentaci\'on de modificar c\'odigo, a\~nadir l\'ineas y duplicar funciones para resolver errores.
+\item Prudencia. Una copia de seguridad, o un `commit' a tiempo y una
+  nueva rama, para probar cambios sin destrozar ninguna
+  funcionalidad. A ver si arreglando algo se nos va a estropear lo
+  dem\'as. 
+\item Justicia. El compilador no tiene la culpa. El computador
+  tampoco, ni el que nos encarg\'o la pr\'actica. Especialmente el que
+  nos encarga la práctica.
+\item Fortaleza. El que resiste gana. Y las herramientas son muy
+  robustas, pero ... ¿Dejaremos que nos venzan unas pocas l\'ineas de
+  c\'odigo? 
+\item Templanza. A\~nadir otra opci\'on a nuestro programa no lo hace
+  mejor. Incluir las \'ultimas caracter\'isticas de la \'ultima
+  versi\'on del lenguaje, tampoco. El objetivo es resolver la
+  funcionalidad que sea necesaria y, de paso, aprender cosas
+  interesantes. A veces tenemos la tentaci\'on de modificar c\'odigo,
+  a\~nadir l\'ineas y duplicar funciones para resolver errores. 
 \end{itemize}
 
+Lo importante es hacerlo. Como dijo Yoda, ``Do. Or do not. There is no
+try.'' Si lo intentas y no funciona, vuelve a intentarlo hasta que
+funcione. 
 
-
-Y claro, `And may the Force be with you!'
+Y claro, `And may the Force be with you!'. La fuerza es, sin duda
+StackOverflow, donde preguntar y contestar ayudará a tu karma. No hay
+duda que StackOverflow no resuelva, si ya ha fallado el grupo de
+WhatsApp de clase, el profesor de prácticas que sabe siempre más que
+el de teoría y el que sacó más de un 8 el año anterior. Raro es el
+error que no le ha ocurrido a alguien, en algún lugar, alguna vez. Y
+esa persona, muy probablemente, lo haya resuelto y lo haya puesto en
+algún lado. Simplemente busca y encontrarás. 
 \bigskip
 
 \noindent\emph{Todas las columnas de la serie Docencia 2.0
@@ -100,4 +141,3 @@ originales}
 
 \end{multicols}
 \end{document}
-Â 
