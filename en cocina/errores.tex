@@ -3,6 +3,7 @@
 \usepackage[spanish]{babel}
 \usepackage[T1]{fontenc}
 
+
 \usepackage{multicol}
 \usepackage{picinpar}
 
@@ -43,7 +44,7 @@ encaminan a que no haya ningún fallo en ese proceso.
 Pero en ingeniería las cosas no siempre van como a uno le gustaría que
 fueran. En cualquier paso en el proceso de creación de un sistema
 informático, un espacio mal colocado o un punto y coma omitido y el
-ordenador expulsa una serie de parrafadas, además en inglés,
+ordenador expulsa una parrafada, muchas veces en inglés,
 expresando su impotencia y su falta de comprensión por lo que el ser
 humano está intentando hacer. Y el problema es que, cada vez más, el
 ser humano matriculado en un grado de ingeniería, ante esa parrafada, sólo sabe expresar su impotencia y su
@@ -56,19 +57,22 @@ strong with this one!', lo cierto es que el protagonista no dejaba de
 utilizar por ello las herramientas que ten\'ia disponibles (la espada
 l\'aser, las naves, los robots...). 
 
-As\'i que ser\'a nuestra tarea intentar convencer a nuestros
-estudiantes del valor de los mensajes de error: fundamentalmente en
-nuestro compilador favorito (o para el caso, de alguien) cuando hemos
-cometido alg\'un errorcillo nos lanza una parrafada que var\'ia mucho
-en calidad y claridad, pero que en muchos casos nos ayudará a
-hacernos una idea de lo que est\'a pasando y en otros nos dar\'a por
-lo menos alguna pista de por d\'onde tenemos que empezar a mirar. 
+!`Incluso se entrenaba para aprender a manejarlas adecuadadamente! 
 
-Por eso, pedimos a los jóvenes padawanes que practiquen las siguientes
+As\'i que ser\'a nuestra tarea intentar convencer a nuestros
+estudiantes del valor de los mensajes de error: nuestro compilador favorito (o
+para el caso, de alguien) nos lanza mensajes y notificaciones que var\'ian
+mucho en calidad y claridadcuando hemos cometido alg\'un errorcillo. En muchos
+casos nos ayudarán a hacernos una idea de lo que est\'a pasando y en otros nos
+dar\'an por lo menos alguna pista de por d\'onde tenemos que empezar a mirar. 
+
+Por eso, pedimos a los jóvenes {\em padawanes} que practiquen las siguientes
 virtudes teologales de un desarrollador cuando aparecen los errores: 
 
 \begin{itemize}
-\item Fe: el compilador sabe. Si se queja es que algo hemos hecho mal.
+\item Fe: el compilador sabe (o, más bien, no sabe otra cosa). Si se queja es
+que algo hemos hecho mal (no encuentra lo que esperaba encontrar).  
+Y nos avisa.
 \item Esperanza: todo tiene remedio. Revisemos la l\'inea donde nos
   se\~nalan, desde el principio de la lista de errores, y sus
   alrededores. A veces ayuda dejarlo un rato y volver m\'as tarde. No
@@ -76,15 +80,43 @@ virtudes teologales de un desarrollador cuando aparecen los errores:
   despistado al compilador y se le olvida darnos el mismo error. 
 \item Caridad: siempre encontraremos quien nos ayude. O a qui\'en
   ayudar. El c\'odigo fuente tiene la rara {\em virtud} de
-  confundirnos cuando lo miramos fijamente. Esto no afecta a personas
-  que no han estado mir\'andolo antes.  
+  confundirnos cuando lo miramos fijamente. Nuevas miradas y ojos nuevos son
+inmunes, a veces.  
 \end{itemize}
 
-Y que, una vez practicadas y alcanzado el zen con ellas, se pueden
+Y que, una vez practicadas y alcanzado el zen con ellas (`The force awakens'), se pueden
 complementar con las virtudes cardinales. 
 
+%--------------------------
+\noindent\rule{86mm}{1pt}
+\vspace{1ex} {\small{\begin{window}[0,r,\includegraphics[width = 27
+mm]{JJM.jpg},] \noindent\emph{JJ Merelo} es catedr\'{a}tico de Universidad
+en el \'area de Arquitectura y Tecnolog\'{\i}a de Computadores, y
+actualmente director de la Oficina de Software Libre de la UGR.
+Mantiene un blog desde el a\~no 2002, y lo ha utilizado en clase desde
+el a\~no 2004; tambi\'en wikis y, ultimamente, agregadores y otras
+herramientas TIC. \'{U}ltimamente le ha dado por el \textsl{flipped
+learning}, de lo que se informar\'{a} debidamente en esta columna.
+\end{window}}}
+
+\medskip
+
+{\small{\begin{window}[0,r,\includegraphics[width = 27 mm]{FTricas1.jpg},]
+		\noindent  \emph{Fernando Tricas Garc\'{\i}a} es profesor
+		titular de Lenguajes y Sistemas Inform\'aticos del Departamento
+		de Inform\'atica e Ingenier\'{\i}a de Sistemas de la Universidad de
+		Zaragoza.  Empez\'o a estudiar la blogosfera casi cuando a\'un no
+		exist\'{\i}a (all\'a por el a\~no 2002) y a tratar de integrarla en los
+		cursos y tareas docentes un poco despu\'es.  Ha impartido
+		numerosas charlas relacionadas con el tema de la Web 2.0.
+		Es actualmente Director de su departamento.  
+		\end{window}}}
+%-------------------------------------------------
+
+\noindent 
 \begin{itemize}
-\item Prudencia. Una copia de seguridad, o un `commit' a tiempo y una
+\item Prudencia. Una copia de seguridad, o un `commit' 
+a tiempo y una
   nueva rama, para probar cambios sin destrozar ninguna
   funcionalidad. A ver si arreglando algo se nos va a estropear lo
   dem\'as. 
@@ -92,7 +124,7 @@ complementar con las virtudes cardinales.
   tampoco, ni el que nos encarg\'o la pr\'actica. Especialmente el que
   nos encarga la práctica.
 \item Fortaleza. El que resiste gana. Y las herramientas son muy
-  robustas, pero ... ¿Dejaremos que nos venzan unas pocas l\'ineas de
+  robustas, pero ... ?`Dejaremos que nos venzan unas pocas l\'ineas de
   c\'odigo? 
 \item Templanza. A\~nadir otra opci\'on a nuestro programa no lo hace
   mejor. Incluir las \'ultimas caracter\'isticas de la \'ultima
@@ -102,11 +134,11 @@ complementar con las virtudes cardinales.
   a\~nadir l\'ineas y duplicar funciones para resolver errores. 
 \end{itemize}
 
-Lo importante es hacerlo. Como dijo Yoda, ``Do. Or do not. There is no
-try.'' Si lo intentas y no funciona, vuelve a intentarlo hasta que
+Lo importante es hacerlo. Como dijo Yoda, `Do. Or do not. There is no
+try.' Si lo intentas y no funciona, vuelve a intentarlo hasta que
 funcione. 
 
-Y claro, `And may the Force be with you!'. La fuerza es, sin duda
+Para terminar, `And may the Force be with you!'. La fuerza es, sin duda
 StackOverflow, donde preguntar y contestar ayudará a tu karma. No hay
 duda que StackOverflow no resuelva, si ya ha fallado el grupo de
 WhatsApp de clase, el profesor de prácticas que sabe siempre más que
