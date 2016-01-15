@@ -1,5 +1,6 @@
 \documentclass[twoside,10pt]{article}
 \usepackage{shlists}
+\usepackage[applemac]{inputenc}
 \usepackage[spanish]{babel}
 \usepackage[T1]{fontenc}
 
@@ -13,10 +14,10 @@
 \newcounter{vol}
 \newcounter{num}
 \newcounter{anyo}
-\setcounter{vol}{8}
-\setcounter{num}{3}
-\setcounter{anyo}{2014}
-\newcommand{\mes}{Septiembre}
+\setcounter{vol}{9}
+\setcounter{num}{1}
+\setcounter{anyo}{2016}
+\newcommand{\mes}{Enero}
 \usepackage{revisionNLcol}
 
 
@@ -35,26 +36,26 @@
 
 \begin{multicols}{2}
  
-En general, en la enseñanza universitaria de la programación y tareas
-aledañas, como administración de sistemas, se enseña a acertar: A que
-tu código compile correctamente, pase todos los tests y finalmente
-haga lo que tiene que hacer. Los contenidos, ejercicios y prácticas se
-encaminan a que no haya ningún fallo en ese proceso.
+En general, en la ense\~{n}anza universitaria de la programaci\'{o}n y tareas
+aleda\~{n}as, como administraci\'{o}n de sistemas, se ense\~{n}a a acertar: a que
+tu c\'{o}digo compile correctamente, pase todos los \textsl{tests} y finalmente
+haga lo que tiene que hacer. Los contenidos, ejercicios y pr\'{a}cticas se
+encaminan a que no haya ning\'{u}n fallo en ese proceso.
 
-Pero en ingeniería las cosas no siempre van como a uno le gustaría que
-fueran. En cualquier paso en el proceso de creación de un sistema
-informático, un espacio mal colocado o un punto y coma omitido y el
-ordenador expulsa una parrafada, muchas veces en inglés,
-expresando su impotencia y su falta de comprensión por lo que el ser
-humano está intentando hacer. Y el problema es que, cada vez más, el
-ser humano matriculado en un grado de ingeniería, ante esa parrafada,
-sólo sabe expresar su impotencia y su 
-falta de comprensión al profesor de teoría o prácticas más cercano. 
+Pero en ingenier\'{\i}a las cosas no siempre van como a uno le gustar\'{\i}a que
+fueran. En cualquier paso en el proceso de creaci\'{o}n de un sistema
+inform\'{a}tico, un espacio mal colocado o un punto y coma omitido y el
+ordenador expulsa una parrafada, muchas veces en ingl\'{e}s,
+expresando su impotencia y su falta de comprensi\'{o}n por lo que el ser
+humano est\'{a} intentando hacer. Y el problema es que, cada vez m\'{a}s, el
+ser humano matriculado en un grado de ingenier\'{\i}a, ante esa parrafada,
+s\'{o}lo sabe expresar su impotencia y su 
+falta de comprensi\'{o}n al profesor de teor\'{\i}a o pr\'{a}cticas m\'{a}s cercano. 
 
-`Use the force, Luke' dec\'ia el maestro al aprendiz en aquella saga
+Ç\textsl{Use the force, Luke}È dec\'ia el maestro al aprendiz en aquella saga
 que se ha puesto de moda otra vez durante las \'ultimas semanas. Y a
-pesar de que tambi\'en aqu\'el otro dec\'ia aquello de `The force is
-strong with this one!', lo cierto es que el protagonista no dejaba de
+pesar de que tambi\'en aqu\'el otro dec\'ia aquello de Ç\textsl{The force is
+strong with this one!}È, lo cierto es que el protagonista no dejaba de
 utilizar por ello las herramientas que ten\'ia disponibles: la espada
 l\'aser, las naves y los robots, por ejemplo. 
 
@@ -63,15 +64,15 @@ l\'aser, las naves y los robots, por ejemplo.
 As\'i que ser\'a nuestra tarea intentar convencer a nuestros
 estudiantes del valor de los mensajes de error: nuestro compilador favorito (o
 para el caso, de alguien) nos lanza mensajes y notificaciones que var\'ian
-mucho en calidad y claridadcuando hemos cometido alg\'un errorcillo. En muchos
-casos nos ayudarán a hacernos una idea de lo que est\'a pasando y en otros nos
+mucho en calidad y claridad cuando hemos cometido alg\'un errorcillo. En muchos
+casos nos ayudar\'{a}n a hacernos una idea de lo que est\'a pasando y en otros nos
 dar\'an por lo menos alguna pista de por d\'onde tenemos que empezar a mirar. 
 
-Por eso, pedimos a los jóvenes {\em padawanes} que practiquen las siguientes
+Por eso, pedimos a los j\'{o}venes {\em padawanes} que practiquen las siguientes
 virtudes teologales de un desarrollador cuando aparecen los errores: 
 
 \begin{itemize}
-\item Fe: el compilador sabe (o, más bien, no sabe otra cosa). Si se queja es
+\item Fe: el compilador sabe (o, m\'{a}s bien, no sabe otra cosa). Si se queja es
 que algo hemos hecho mal (no encuentra lo que esperaba encontrar).  
 Y nos avisa.
 \item Esperanza: todo tiene remedio. Revisemos la l\'inea donde nos
@@ -82,12 +83,10 @@ Y nos avisa.
 \item Caridad: siempre encontraremos quien nos ayude. O a qui\'en
   ayudar. El c\'odigo fuente tiene la rara {\em virtud} de
   confundirnos cuando lo miramos fijamente. Nuevas miradas y ojos nuevos son
-inmunes a esta confusión, a veces.  
+inmunes a esta confusi\'{o}n, a veces.  
 \end{itemize}
 
-Y que, una vez practicadas y alcanzado el zen con ellas (`The force awakens'), se pueden
-complementar con las virtudes cardinales. 
-
+Y que, una vez practicadas y alcanzado el zen con ellas 
 %--------------------------
 \noindent\rule{86mm}{1pt}
 \vspace{1ex} {\small{\begin{window}[0,r,\includegraphics[width = 27
@@ -114,18 +113,19 @@ learning}, de lo que se informar\'{a} debidamente en esta columna.
 		\end{window}}}
 %-------------------------------------------------
 
-\noindent 
+\noindent (Ç\textsl{The force awakens}È), se pueden complementar con las virtudes
+cardinales. 
 \begin{itemize}
-\item Prudencia. Una copia de seguridad, o un `commit' 
+\item Prudencia. Una copia de seguridad, o un ``commit'' 
 a tiempo y una
   nueva rama, para probar cambios sin destrozar ninguna
   funcionalidad. A ver si arreglando algo se nos va a estropear lo
   dem\'as. 
 \item Justicia. El compilador no tiene la culpa. El computador
   tampoco, ni el que nos encarg\'o la pr\'actica. Especialmente el que
-  nos encarga la práctica.
+  nos encarga la pr\'{a}ctica.
 \item Fortaleza. El que resiste gana. Y las herramientas son muy
-  robustas, pero ... ?`Dejaremos que nos venzan unas pocas l\'ineas de
+  robustas, pero\ldots\ ?`Dejaremos que nos venzan unas pocas l\'ineas de
   c\'odigo? 
 \item Templanza. A\~nadir otra opci\'on a nuestro programa no lo hace
   mejor. Incluir las \'ultimas caracter\'isticas de la \'ultima
@@ -135,18 +135,18 @@ a tiempo y una
   a\~nadir l\'ineas y duplicar funciones para resolver errores. 
 \end{itemize}
 
-Lo importante es hacerlo. Como dijo Yoda, `Do. Or do not. There is no
-try.' Si lo intentas y no funciona, vuelve a intentarlo hasta que
+Lo importante es hacerlo. Como dijo Yoda, Ç\textsl{Do. Or do not. There is no
+try.}È Si lo intentas y no funciona, vuelve a intentarlo hasta que
 funcione. 
 
-Para terminar, `And may the Force be with you!'. La fuerza es, sin duda,
-StackOverflow, donde preguntar y contestar ayudará a tu karma. No hay
+Para terminar, Ç\textsl{And may the Force be with you!}È. La fuerza es, sin duda,
+StackOverflow, donde preguntar y contestar ayudar\'{a} a tu karma. No hay
 duda que StackOverflow no resuelva, si ya ha fallado el grupo de
-WhatsApp de clase, el profesor de prácticas que sabe siempre más que
-el de teoría y el que sacó más de un ocho el año anterior en la misma asignatura. Raro es el
-error que no le ha ocurrido a alguien, en algún lugar, alguna vez. Y
+WhatsApp de clase, el profesor de pr\'{a}cticas que sabe siempre m\'{a}s que
+el de teor\'{\i}a y el que sac\'{o} m\'{a}s de un ocho el a\~{n}o anterior en la misma asignatura. Raro es el
+error que no le ha ocurrido a alguien, en alg\'{u}n lugar, alguna vez. Y
 esa persona, muy probablemente, lo haya resuelto y lo haya puesto en
-algún lado. Simplemente busca y encontrarás, joven padawan.  
+alg\'{u}n lado. Simplemente busca y encontrar\'{a}s, joven padawan.  
 \bigskip
 
 \noindent\emph{Todas las columnas de la serie Docencia 2.0
@@ -155,7 +155,7 @@ pueden descargarse en formato LaTeX desde
 
 \noindent\rule{90mm}{1pt}
 
-{\small \noindent\copyright 2015 JJ. Merelo, F. Tricas. Este art\'{\i}culo es de acceso libre distribuido bajo los t\'erminos
+{\small \noindent\copyright 2016 JJ. Merelo, F. Tricas. Este art\'{\i}culo es de acceso libre distribuido bajo los t\'erminos
 de la Licencia Creative Commons de Atribuci\'on, que permite copiar,
 distribuir y comunicar p\'ublicamente la obra en cualquier medio, s\'olido
 o electr\'onico, siempre que se acrediten a los autores y fuentes
