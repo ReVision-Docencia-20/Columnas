@@ -5,6 +5,10 @@ Estos son los fuentes en LaTeX de las columnas que vamos escribiendo para
 la sección Docencia 2.0 de la revista [ReVisión]([http://www.aenui.net/ojs/index.php?journal=revision), la revista de la [Asociación de Enseñantes Universitarios de la Informática - AENUI ](http://www.aenui.net/).
 
 Las columnas pueden leerse en formato html y pdf en la revista.
+* [Lenguajes de programación: ¿uno, ninguno o todos?](http://www.aenui.net/ojs/index.php?journal=revision&page=article&op=view&path%5B%5D=306&path%5B%5D=467), ReVisión, vol9, No 3, (2016), [fuente](doc2_09_3.tex).
+* [En defensa de los trabajos de fin de grado](http://www.aenui.net/ojs/index.php?journal=revision&page=article&op=view&path%5B%5D=238&path%5B%5D=381), ReVisión, vol 9, No 2, (2016), [fuente](doc2.18.tex).
+* [El miedo a fallar](http://www.aenui.net/ojs/index.php?journal=revision&page=article&op=view&path[]=227&path[]=362), ReVisión, Vol 9, No 1, (2016), [fuente](Doc2.0errores.tex).
+* [Control de versiones y el ecosistema a su alrededor](http://www.aenui.net/ojs/index.php?journal=revision&page=article&op=view&path[]=212&path[]=347), ReVisión, Vol 8, No 3 (2015), [fuente](doc2.16.tex).
 * [La ciencia, la ingeniería y la cultura](http://www.aenui.net/ojs/index.php?journal=revision&page=article&op=view&path[]=179&path[]=284), ReVisión, vol 8, No 1, (2015), [fuente](doc2.15.tex)
 * [Informática y Mundo Real: Hackatones](http://www.aenui.net/ojs/index.php?journal=revision&page=article&op=view&path[]=155&path[]=236), ReVisión, Vol 7, No 1 (2014), [fuente](doc2.14.tex)
 * [Enseñar y compartir](http://www.aenui.net/ojs/index.php?journal=revision&page=article&op=view&path%5B%5D=138&path%5B%5D=227), ReVisión, Vol 7, No 1 (2014), [fuente](doc2.13.tex)
