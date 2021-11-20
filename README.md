@@ -13,7 +13,7 @@ Las columnas pueden leerse en formato HTML en la revista, [ahora disponible ya
 solo en versión
 archivada](https://web.archive.org/web/20191215000000*/https://aenui.net). Los
 PDFs están enlazados aquí.
-* [Diseñando un proyecto: *design thinking* para los estudios de informática], ReVisión, vol10, No 1, (2017), [fuente](doc2_10_1.tex), [PDF](https://github.com/ReVision-Docencia-20/Columnas/releases/download/2.19/doc2_10_1.pdf).
+* [Diseñando un proyecto: *design thinking* para los estudios de informática](https://github.com/ReVision-Docencia-20/Columnas/releases/download/2.19/doc2_10_1.pdf), ReVisión, vol10, No 1, (2017), [fuente](doc2_10_1.tex).
 * [Lenguajes de programación: ¿uno, ninguno o todos?](http://www.aenui.net/ojs/index.php?journal=revision&page=article&op=view&path%5B%5D=306&path%5B%5D=467), ReVisión, vol9, No 3, (2016), [fuente](doc2_09_3.tex), [PDF](https://github.com/ReVision-Docencia-20/Columnas/releases/download/2.19/doc2_09_3.pdf).
 * [En defensa de los trabajos de fin de grado](http://www.aenui.net/ojs/index.php?journal=revision&page=article&op=view&path%5B%5D=238&path%5B%5D=381), ReVisión, vol 9, No 2, (2016), [fuente](doc2.18.tex), [PDF](https://github.com/ReVision-Docencia-20/Columnas/releases/download/2.19/doc2.18.pdf).
 * [El miedo a fallar](http://www.aenui.net/ojs/index.php?journal=revision&page=article&op=view&path[]=227&path[]=362), ReVisión, Vol 9, No 1, (2016), [fuente](Doc2.0errores.tex), [PDF](https://github.com/ReVision-Docencia-20/Columnas/releases/download/2.19/Doc2.0errores.pdf).
