@@ -9,7 +9,10 @@ la [Asociación de Enseñantes Universitarios de la Informática - AENUI
 web](http://revision-docencia-20.github.io/Columnas/), tras la desaparición del
 dominio anterior.
 
-Las columnas pueden leerse en formato html y pdf en la revista.
+Las columnas pueden leerse en formato HTML en la revista, [ahora disponible ya
+solo en versión
+archivada](https://web.archive.org/web/20191215000000*/https://aenui.net). Los
+PDFs están enlazados aquí.
 * [Lenguajes de programación: ¿uno, ninguno o todos?](http://www.aenui.net/ojs/index.php?journal=revision&page=article&op=view&path%5B%5D=306&path%5B%5D=467), ReVisión, vol9, No 3, (2016), [fuente](doc2_09_3.tex), [PDF](https://github.com/ReVision-Docencia-20/Columnas/releases/download/2.19/doc2_09_3.pdf).
 * [En defensa de los trabajos de fin de grado](http://www.aenui.net/ojs/index.php?journal=revision&page=article&op=view&path%5B%5D=238&path%5B%5D=381), ReVisión, vol 9, No 2, (2016), [fuente](doc2.18.tex), [PDF](https://github.com/ReVision-Docencia-20/Columnas/releases/download/2.19/doc2.18.pdf).
 * [El miedo a fallar](http://www.aenui.net/ojs/index.php?journal=revision&page=article&op=view&path[]=227&path[]=362), ReVisión, Vol 9, No 1, (2016), [fuente](Doc2.0errores.tex), [PDF](https://github.com/ReVision-Docencia-20/Columnas/releases/download/2.19/Doc2.0errores.pdf).
