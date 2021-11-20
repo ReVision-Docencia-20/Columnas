@@ -2,7 +2,12 @@ Docencia 2.0 en ReVisión: los fuentes
 ===============
 
 Estos son los fuentes en LaTeX de las columnas que vamos escribiendo para
-la sección Docencia 2.0 de la revista [ReVisión]([http://www.aenui.net/ojs/index.php?journal=revision), la revista de la [Asociación de Enseñantes Universitarios de la Informática - AENUI ](http://www.aenui.net/).
+la sección Docencia 2.0 de la revista
+[ReVisión]([http://www.aenui.net/ojs/index.php?journal=revision), la revista de
+la [Asociación de Enseñantes Universitarios de la Informática - AENUI
+](http://www.aenui.net/). Ahora también en [esta
+web](http://revision-docencia-20.github.io/Columnas/), tras la desaparición del
+dominio anterior.
 
 Las columnas pueden leerse en formato html y pdf en la revista.
 * [Lenguajes de programación: ¿uno, ninguno o todos?](http://www.aenui.net/ojs/index.php?journal=revision&page=article&op=view&path%5B%5D=306&path%5B%5D=467), ReVisión, vol9, No 3, (2016), [fuente](doc2_09_3.tex), [PDF](https://github.com/ReVision-Docencia-20/Columnas/releases/download/2.19/doc2_09_3.pdf).
